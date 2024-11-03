@@ -1,0 +1,12 @@
+## Interval Between Request (total rps = limited_count * 1/(rate_limit_time_ms/1000))
+## Decrease this for faster scans (only for the brave)
+rate_limit_time_ms: 500
+
+## Extra logging
+verbose: true
+
+## .ROBLOSECURITY cookie.
+cookie:
+
+## Discord Webhook (Don't leave this empty please)
+webhook_url:
